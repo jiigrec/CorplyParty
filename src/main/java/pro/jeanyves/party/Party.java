@@ -34,6 +34,7 @@ public class Party extends Plugin {
 		getProxy().getPluginManager().registerCommand( this, new PartyCommand() );
 		getProxy().getPluginManager().registerListener( this, new PlayerDisconnectListener() );
 		getProxy().getPluginManager().registerListener( this, new ServerSwitchListener() );
+		this.getLogger().info("[CorplyParty] Plugin chargé.");
 	}
 
 	/**

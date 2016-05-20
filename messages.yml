@@ -19,18 +19,18 @@ Commands:
   Footer: '&8&m-----------------------------------'
   Format: '&8/&5party &5%aliases% &5%usage% &8- &7%message%'
 
-  NotExists: '&cCette commande n'existe pas.'
+  NotExists: '&cCette commande n existe pas.'
 
   Create:
     Help: '&7Créer un groupe.'
-    AlreadyInParty: '&cVous faites déjà partie d'un groupe !'
+    AlreadyInParty: '&cVous faites déjà partie d un groupe !'
     Created: '&bGroupe créé.'
 
   Invite:
     Help: '&7Invite un joueur dans votre groupe.'
     Usage: '&7<Name>'
-    NoPlayer: '&cEntrez le nom d'un joueur.'
-    NoParty: '&cVous n'êtes pas dans un groupe.'
+    NoPlayer: '&cEntrez le nom d un joueur.'
+    NoParty: '&cVous n êtes pas dans un groupe.'
     NotLeader: '&cVous ne poubez pas inviter de joueurs dans votre groupe.'
     NotOnline: '&cJoueur introuvable.'
     Invited: ' &6%player% &ba été invité dans votre groupe.'
@@ -38,37 +38,37 @@ Commands:
   Join:
     Help: '&7Rejoindre un groupe'
     Usage: '&7<Name>'
-    NoPlayer: '&cEntrez le nom d'un joueur.'
-    AlreadyInParty: '&cVous faites déjà partie d'un groupe ! &cTapez &8/&6party &6leave &cpour le quitter.'
+    NoPlayer: '&cEntrez le nom d un joueur.'
+    AlreadyInParty: '&cVous faites déjà partie d un groupe ! &cTapez &8/&6party &6leave &cpour le quitter.'
     NotOnline: '&cThat &cplayer &cis &cnot &conline'
     NoParty: '&cJoueur introuvable.'
     Joined: '&6%player% &bja rejoint le groupe.'
-    Error: '&cErreur : vous n'avez pas pu rejoindre ce groupe.'
+    Error: '&cErreur : vous n avez pas pu rejoindre ce groupe.'
 
   Kick:
     Help: '&7Kick un joueur du groupe.'
     Usage: '&7<Name>'
-    NoPlayer: '&cEntrez le nom d'un joueur.'
-    NoParty: '&cVous n'êtes pas dans un groupe.'
+    NoPlayer: '&cEntrez le nom d un joueur.'
+    NoParty: '&cVous n êtes pas dans un groupe.'
     NotLeader: '&cVous ne pouvez pas effectuer cette action.'
     NotOnline: '&cJoueur introuvable.'
     Kicked: '&6%player% &bne fait plus partie de votre groupe.'
     Player-Kicked: '&6%player% &bne fait plus partie de votre groupe.'
     Kick: '&bVous ne faites plus partie du groupe.'
-    Error: '&cVous n'avez pas la permission.'
+    Error: '&cVous n avez pas la permission.'
 
   Leave:
     Help: '&7Quitter le groupe.'
-    NoParty: '&cYVous n'êtes pas dans un groupe.'
-    Dissolved: '&bLe groupe d'existe plus.'
+    NoParty: '&cYVous n êtes pas dans un groupe.'
+    Dissolved: '&bLe groupe n existe plus.'
     Dissolve: '&bLe groupe a été supprimé.'
     Leave: '&bGroupe quitté.'
     Left: ' &6%player% &ba quitté le groupe.'
-    Error: '&cErreur :  vous n'avez pas pu quitter le groupe.'
+    Error: '&cErreur :  vous n avez pas pu quitter le groupe.'
 
   List:
     Help: '&7Liste des joueurs du groupe.'
-    NoParty: '&cVous n'êtes pas dans un groupe.'
+    NoParty: '&cVous n êtes pas dans un groupe.'
     Header: '&8&m---------[&5&lGROUPE&8]&m----------'
     Leader: '&3Propriétaire&7: &5%leader%'
     Players: '&8Joueurs&7: &b%players%'
